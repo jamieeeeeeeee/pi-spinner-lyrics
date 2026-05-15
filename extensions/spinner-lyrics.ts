@@ -13,6 +13,10 @@ import { VERBS } from "./constants";
 const VERB_INTERVAL_MS = 2500;
 const SHIMMER_INTERVAL_MS = 80;
 
+// Moon-phase frames replace pi's default braille spinner.
+const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
+const MOON_INTERVAL_MS = 120;
+
 // How far the bright "head" travels per shimmer tick, in characters.
 const SHIMMER_STEP = 1;
 
@@ -26,8 +30,10 @@ type ThemeColor = "accent" | "text" | "muted" | "dim";
 const RAMP: ThemeColor[] = ["accent", "text", "muted", "dim"];
 
 type Theme = { fg(color: string, text: string): string };
+type WorkingIndicator = { frames: string[]; intervalMs?: number };
 type WorkingUi = {
   setWorkingMessage(msg?: string): void;
+  setWorkingIndicator?(spec?: WorkingIndicator): void;
   theme?: Theme;
 };
 
@@ -87,6 +93,7 @@ export default function (pi: ExtensionAPI) {
 
   function start(ui: WorkingUi) {
     lastUi = ui;
+    ui.setWorkingIndicator?.({ frames: MOON_FRAMES, intervalMs: MOON_INTERVAL_MS });
     if (!verbTimer) {
       rotate();
       verbTimer = setInterval(rotate, VERB_INTERVAL_MS);
@@ -107,6 +114,7 @@ export default function (pi: ExtensionAPI) {
     }
     if (lastUi) {
       lastUi.setWorkingMessage(); // restore default
+      lastUi.setWorkingIndicator?.(); // restore default spinner
       lastUi = undefined;
     }
   }

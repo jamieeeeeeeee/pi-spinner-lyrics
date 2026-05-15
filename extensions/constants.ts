@@ -30,15 +30,13 @@ export const VERBS: string[] = [
   "Stirring it with the ladle that Grandmother bought her",
   "Bagging it, tagging it, selling it to the butcher in the store",
   "Dipping the ladle for a taste of her creation",
-
-  // "Bouncing Around the Room"
-  "Bouncing around the room",
-
-  // "Reba" (cont.)
   "Hearing the never-ending coral maze",
   "Wiping primal soup from my shoes",
   "Stuffing a newt into my sack",
   "Scraping musty grime off with Rick's fork",
+
+  // "Bouncing Around the Room"
+  "Bouncing around the room",
 
   // "Harry Hood"
   "Taking care of my shoes",
@@ -54,11 +52,9 @@ export const VERBS: string[] = [
   "Swimming weightless in the womb",
   "Splashing in the sea",
 
-  // "Birds of a Feather"
+  // "Golgi Apparatus"
   "Looking into the finance box",
   "Looking into the microscope",
-
-  // (Phish — source unconfirmed)
   "Running like a junkyard dog with a brain of brass",
 
   // "Mike's Song" / "Weekapaug Groove"
@@ -68,12 +64,10 @@ export const VERBS: string[] = [
   "Chasing the backbeat falling behind",
 
   // "Wading in the Velvet Sea"
-  "Wading in the velvet sea",
-  "Wrapping a moment in things you say",
+  "Taking a moment from my day",
+  "Wrapping it up in things you say",
   "Mailing it off to your address",
-
-  // (Phish — source unconfirmed)
-  "Stopping demons dancing in my head",
+  "Wading in the velvet sea",
 
   // "Chalk Dust Torture"
   "Climbing up my waterfalls and swinging on my vines",
@@ -91,17 +85,12 @@ export const VERBS: string[] = [
   "Pooling like water that drips from above",
   "Being trampled by lambs and pecked by the dove",
 
-  // "Farmhouse"
-  "Welcoming you to the farmhouse",
-  "Swatting cluster-flies",
-  "Fussing and quaking and cavitating",
-  "Probing and tearing my ventricles",
-
-  // (Phish — source unconfirmed)
+  // Maze
   "Stumbling as I fall from Grace",
-  "Hunting a few steps away",
+  "Seeing what I'm hunting a few steps away",
   "Taking a wrong turn on the wrong path",
   "Sweeping into the cavern of shame and the hall of dismay",
+  "Never getting out of this maze",
 
   // "Esther"
   "Making soup for the ambassadors",
@@ -111,10 +100,15 @@ export const VERBS: string[] = [
   "Making bathtub gin",
   "Taking a bath, because we're all in this together",
 
-  // (Phish — source unconfirmed)
+  // Stash
   "Pulling the pavement from under my nails",
   "Brushing past a garden, dependent on whales",
+  "Yanking on my tunic",
+  "Dangling my stash",
   "Zipping through the forest with the curdling fleas",
+  "Seizing the mutant",
+  "Crying to my cohorts",
+  "Bedheating the apple toast",
   "Watching the solar garlic start to rot",
   "Poking a double decker on a llama, taboot",
 
@@ -131,7 +125,7 @@ export const VERBS: string[] = [
   "Stepping into the freezer",
   "Teasing her with a tweezer",
 
-  // (Phish — source unconfirmed)
+  // Fluffhead
   "Asking the banker for some powerful pills",
 
   // "Walls of the Cave"
