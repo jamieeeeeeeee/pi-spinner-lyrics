@@ -1,0 +1,18 @@
+{
+  "name": "pi-spinner-lyrics",
+  "version": "0.1.0",
+  "description": "Replaces pi's spinner verb with rotating Phish-lyric verbs.",
+  "keywords": ["pi-package", "pi-extension", "spinner", "phish"],
+  "author": "jamieeeeeeeee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamieeeeeeeee/pi-spinner-lyrics.git"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
