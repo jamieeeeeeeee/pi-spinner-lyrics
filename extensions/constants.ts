@@ -269,4 +269,16 @@ export const VERBS: string[] = [
   "Mimicking the image",
   "Pressing on the elastic sheet",
   "Breathing through a slice",
+
+  // Dog-Faced Boy
+  "Sparing a moment for the dog-faced boy",
+  "Lending another hand to the worm girl",
+  "Depleting your oxygen",
+
+  // Piper
+  "Waking up Piper, the red, red worm",
+
+  // Dirt
+  "Living beneath the dirt",
+  "Being free from push and shove",
 ];
