@@ -10,7 +10,7 @@
     "url": "git+https://github.com/jamieeeeeeeee/pi-spinner-lyrics.git"
   },
   "pi": {
-    "extensions": ["./extensions"]
+    "extensions": ["./extensions/spinner-lyrics.ts"]
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
