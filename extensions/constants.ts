@@ -3,10 +3,10 @@
 // shimmer highlight without touching the extension logic.
 
 // How often to swap to a new random verb, in milliseconds.
-export const VERB_INTERVAL_MS = 2500;
+export const VERB_INTERVAL_MS = 4500;
 
 // How often to repaint the shimmer highlight, in milliseconds.
-export const SHIMMER_INTERVAL_MS = 80;
+export const SHIMMER_INTERVAL_MS = 160;
 
 // Moon-phase frames replace pi's default braille spinner.
 export const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
@@ -90,10 +90,10 @@ export const VERBS: string[] = [
   "Seeing you with a ticket stub in your hand",
 
   // "Mike's Song" / "Weekapaug Groove"
-  "Sharing in a Weekapaug groove",
+  "Sharing in the groove",
   "Trying to make a woman that you move",
   "Walking through the hallways inside my mind",
-  "Chasing the backbeat falling behind",
+  "Chasing the backbeat from behind",
 
   // "Wading in the Velvet Sea"
   "Taking a moment from my day",
@@ -130,13 +130,11 @@ export const VERBS: string[] = [
   "Sweeping into the cavern of shame and the hall of dismay",
   "Never getting out of this maze",
 
-  // "Esther"
+  // "Bathtub Gin"
   "Making soup for the ambassadors",
   "Singing to the troubadours",
-
-  // "Bathtub Gin"
-  "Making bathtub gin",
-  "Taking a bath, because we're all in this together",
+  "Carrying a martini, made of bathtub gin",
+  "Taking a bath",
 
   // "Stash"
   "Pulling the pavement from under my nails",
@@ -281,4 +279,11 @@ export const VERBS: string[] = [
   // Dirt
   "Living beneath the dirt",
   "Being free from push and shove",
+
+  // My Friend, My Friend
+  "Affixing my gaze",
+  "Grasping the handle, clipping the cable",
+  "Thinking about my friend with the knife",
+  "Moving closer to the flame",
+  "Feeling it ticking like a bomb",
 ];
