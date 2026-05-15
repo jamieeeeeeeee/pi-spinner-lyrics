@@ -111,11 +111,17 @@ export const VERBS: string[] = [
   "Slaving to the traffic light",
 
   // "Limb by Limb"
+  "Leaning on a shoulder carved out of stone",
   "Coming unglued while in mid-air",
+  "Never wanting my hand cut off",
+  "Never wanting a hacking cough",
+  "Taking the best parts back",
   "Landing to reform limb by limb",
   "Peeling my fingers off the rim",
+  "Turning left",
   "Pooling like water that drips from above",
-  "Being trampled by lambs and pecked by the dove",
+  "Being trampled by lambs",
+  "Tossing with the salad",
 
   // Maze
   "Stumbling as I fall from Grace",
