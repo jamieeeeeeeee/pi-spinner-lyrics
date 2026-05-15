@@ -254,13 +254,19 @@ export const VERBS: string[] = [
   "Trying to stay with Millie",
   "Getting bottled upside the head",
   "Slamming him in a face with a nectarine",
+  "Slicing him on the nipple",
 
   // "Harpua"
   "Coming to your town",
   "Helping you party down",
   "Mourning Poster Nutbag",
 
-  // Cities (Taling Heads song, covered by Phish)
+  // Cities (Talking Heads song, covered by Phish)
   "Finding myself a city to live in",
   "Looking over at the dry ice factory",
+
+  // It's Ice
+  "Mimicking the image",
+  "Pressing on the elastic sheet",
+  "Breathing through a slice",
 ];
