@@ -1,6 +1,31 @@
+// Tunables and Phish-lyric verbs used by the spinner-lyrics extension.
+// Adjust the constants below to tune timing, spinner glyphs, and the
+// shimmer highlight without touching the extension logic.
+
+// How often to swap to a new random verb, in milliseconds.
+export const VERB_INTERVAL_MS = 2500;
+
+// How often to repaint the shimmer highlight, in milliseconds.
+export const SHIMMER_INTERVAL_MS = 80;
+
+// Moon-phase frames replace pi's default braille spinner.
+export const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
+export const MOON_INTERVAL_MS = 120;
+
+// How far the bright "head" travels per shimmer tick, in characters.
+export const SHIMMER_STEP = 1;
+
+// Width of the falloff on each side of the head (in characters).
+// Beyond this distance the character renders as "dim".
+export const FALLOFF = 3;
+
+export type ThemeColor = "accent" | "text" | "muted" | "dim";
+
+// Map distance-from-head → theme color name. Index 0 = head.
+export const RAMP: ThemeColor[] = ["accent", "text", "muted", "dim"];
+
 // Phish-lyric verbs used by the spinner-lyrics extension.
 // Grouped by song where known; some are unattributed.
-
 export const VERBS: string[] = [
   // "Roses Are Free" (Ween cover, frequently played by Phish)
   "Taking a piece of tinsel",
@@ -44,8 +69,13 @@ export const VERBS: string[] = [
   "Thanking Mr. Miner",
   "Wandering soaking, secretly afraid",
 
-  // (Phish — source unconfirmed; Elihu/Leemor are recurring Phish names)
+  // Sample in a Jar
+  "Wheeling around because I didn't hear",
+  "Helping you to your car",
+  "Letting the binding belt enclose me",
   "Dancing with Elihu up on Leemor's bed",
+  "Letting the market stands unfold",
+  "Unheeding all the times I raise my cup",
 
   // "Free"
   "Floating in the blimp a lot",
@@ -55,7 +85,9 @@ export const VERBS: string[] = [
   // "Golgi Apparatus"
   "Looking into the finance box",
   "Looking into the microscope",
+  "Seeing the Golgi Apparatus",
   "Running like a junkyard dog with a brain of brass",
+  "Seeing you with a ticket stub in your hand",
 
   // "Mike's Song" / "Weekapaug Groove"
   "Sharing in a Weekapaug groove",
@@ -113,11 +145,13 @@ export const VERBS: string[] = [
   "Poking a double decker on a llama, taboot",
 
   // "Ghost"
-  "Triggering a blastoplast",
+  "Telling you the story of the ghost",
+  "Feeling forsaken",
+  "Leaving the latch left unhooked",
+  "Waiting in the wind and rain",
   "Calling the ghost instead",
 
   // "Birds of a Feather" (cont.)
-  "Waiting in the wind and rain",
   "Flocking outside like birds of a feather",
   "Pecking at the ground and strutting out of stride",
 
@@ -128,20 +162,27 @@ export const VERBS: string[] = [
   // Fluffhead
   "Asking the banker for some powerful pills",
 
-  // "Walls of the Cave"
+  // Possum
   "Coming from atop the mountain where the people come to pray",
   "Engraving words on the walls of the cave",
 
-  // "Punch You in the Eye" / Gamehendge
+  // "Punch You in the Eye"
   "Paddling 'til I could take no more",
-  "Punching Wilson in the eye",
-  "Chafing a bone out near Gamehendge",
-  "Laying this hate on you, King of Prussia",
+  "Punching you in the eye",
+  "Tying you to a chair with a giant clip",
+  "Laying this hate on you",
 
-  // "The Lizards" (paraphrased imagery, not lyric quotations)
+  // I Didn't Know
+  "Disliking cheeseburger alleycats...",
+  "Inquiring about the picture of Otis Redding taken just before he died",
+  "Breaking my sunny shoe shine",
+  "Greeting mustard pies and carrot eyes",
+
+  // "The Lizards"
   "Meeting an aging knight in the corridor",
   "Surrendering to the flow",
   "Remembering all the thoughts that he had thunk",
+  "Realizing the lizards, they have died",
 
   // (Phish — source unconfirmed)
   "Bouncing like a new born elf",
@@ -185,12 +226,18 @@ export const VERBS: string[] = [
   "Watching the sky divide",
 
   // You Enjoy Myself
-  "Washing the Uffizi, driving me to Firenze",
+  "Washing Uffizi",
+  "Driving me to Firenze",
 
   // "Split Open and Melt"
-  "Splitting open and melting",
-  "Coming apart at the seams",
+  "Tossing it in my carryall",
+  "Running the wide load to the lip",
   "Watching the big core crack and glow",
+  "Splitting open and melting",
+  "Bumping my head and raising a welt",
+  "Coming apart at the seams",
+  "Breathing in a steam dream",
+  "Plunging below the water line",
 
   // "Fee"
   "Using a bamboo cane to help keep the pace",
@@ -206,4 +253,8 @@ export const VERBS: string[] = [
   "Coming to your town",
   "Helping you party down",
   "Mourning Poster Nutbag",
+
+  // Cities (Taling Heads song, covered by Phish)
+  "Finding myself a city to live in",
+  "Looking over at the dry ice factory",
 ];

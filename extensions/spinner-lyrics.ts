@@ -8,26 +8,17 @@
 //   shimmer highlight that travels across the text, then wraps and repeats.
 
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
-import { VERBS } from "./constants";
-
-const VERB_INTERVAL_MS = 2500;
-const SHIMMER_INTERVAL_MS = 80;
-
-// Moon-phase frames replace pi's default braille spinner.
-const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
-const MOON_INTERVAL_MS = 120;
-
-// How far the bright "head" travels per shimmer tick, in characters.
-const SHIMMER_STEP = 1;
-
-// Width of the falloff on each side of the head (in characters).
-// Beyond this distance the character renders as "dim".
-const FALLOFF = 3;
-
-type ThemeColor = "accent" | "text" | "muted" | "dim";
-
-// Map distance-from-head → theme color name. Index 0 = head.
-const RAMP: ThemeColor[] = ["accent", "text", "muted", "dim"];
+import {
+  VERBS,
+  VERB_INTERVAL_MS,
+  SHIMMER_INTERVAL_MS,
+  MOON_FRAMES,
+  MOON_INTERVAL_MS,
+  SHIMMER_STEP,
+  FALLOFF,
+  RAMP,
+  type ThemeColor,
+} from "./constants";
 
 type Theme = { fg(color: string, text: string): string };
 type WorkingIndicator = { frames: string[]; intervalMs?: number };
