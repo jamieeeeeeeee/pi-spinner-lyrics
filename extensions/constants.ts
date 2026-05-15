@@ -138,6 +138,20 @@ export const VERBS: string[] = [
   "Chafing a bone out near Gamehendge",
   "Laying this hate on you, King of Prussia",
 
+  // "The Lizards" (paraphrased imagery, not lyric quotations)
+  "Meeting an aging knight in the corridor",
+  "Following Rutherford the Brave through Gamehendge",
+  "Trudging through Prussia at a knight's side",
+  "Reaching a hidden spring past the forest",
+  "Hearing a knight's song of a vanished people",
+  "Searching for the Helping Friendly Book",
+  "Defying Wilson's decree",
+  "Plunging into a raging river in heavy armor",
+  "Watching Rutherford sink beneath the current",
+  "Spying a hulking creature in the reeds",
+  "Praying brave Rutherford still draws breath",
+  "Carrying the knight back from the depths",
+
   // (Phish — source unconfirmed)
   "Bouncing like a new born elf",
   "Sleeping the sleep of death",
@@ -167,7 +181,7 @@ export const VERBS: string[] = [
   "Waiting 46 days for the coal to run out",
   "Tasting the fear, for the devil's drawing near",
 
-  // (Phish — source unconfirmed; possibly "The Lizards")
+  // "The Lizards"
   "Wondering if tigers sleep in lily patches",
 
   // "Tube"
@@ -177,8 +191,7 @@ export const VERBS: string[] = [
   // "The Divided Sky"
   "Watching the sky divide",
 
-  // (Phish — source unconfirmed)
-  "Hearing the high-pitched cavitation of propellers from afar",
+  // You Enjoy Myself
   "Washing the Uffizi, driving me to Firenze",
 
   // "Split Open and Melt"
@@ -199,4 +212,5 @@ export const VERBS: string[] = [
   // "Harpua"
   "Coming to your town",
   "Helping you party down",
+  "Mourning Poster Nutbag",
 ];
