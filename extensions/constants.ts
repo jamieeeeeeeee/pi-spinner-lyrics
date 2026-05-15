@@ -69,7 +69,7 @@ export const VERBS: string[] = [
   "Thanking Mr. Miner",
   "Wandering soaking, secretly afraid",
 
-  // Sample in a Jar
+  // "Sample in a Jar"
   "Wheeling around because I didn't hear",
   "Helping you to your car",
   "Letting the binding belt enclose me",
@@ -123,7 +123,7 @@ export const VERBS: string[] = [
   "Being trampled by lambs",
   "Tossing with the salad",
 
-  // Maze
+  // "Maze"
   "Stumbling as I fall from Grace",
   "Seeing what I'm hunting a few steps away",
   "Taking a wrong turn on the wrong path",
@@ -138,7 +138,7 @@ export const VERBS: string[] = [
   "Making bathtub gin",
   "Taking a bath, because we're all in this together",
 
-  // Stash
+  // "Stash"
   "Pulling the pavement from under my nails",
   "Brushing past a garden, dependent on whales",
   "Yanking on my tunic",
@@ -146,7 +146,7 @@ export const VERBS: string[] = [
   "Zipping through the forest with the curdling fleas",
   "Seizing the mutant",
   "Crying to my cohorts",
-  "Bedheating the apple toast",
+  "Bed-heating the apple toast",
   "Watching the solar garlic start to rot",
   "Poking a double decker on a llama, taboot",
 
@@ -157,7 +157,7 @@ export const VERBS: string[] = [
   "Waiting in the wind and rain",
   "Calling the ghost instead",
 
-  // "Birds of a Feather" (cont.)
+  // "Birds of a Feather"
   "Flocking outside like birds of a feather",
   "Pecking at the ground and strutting out of stride",
 
@@ -165,10 +165,10 @@ export const VERBS: string[] = [
   "Stepping into the freezer",
   "Teasing her with a tweezer",
 
-  // Fluffhead
+  // "Fluffhead"
   "Asking the banker for some powerful pills",
 
-  // Possum
+  // "Possum"
   "Coming from atop the mountain where the people come to pray",
   "Engraving words on the walls of the cave",
 
@@ -178,8 +178,8 @@ export const VERBS: string[] = [
   "Tying you to a chair with a giant clip",
   "Laying this hate on you",
 
-  // I Didn't Know
-  "Disliking cheeseburger alleycats...",
+  // "I Didn't Know"
+  "Disliking cheeseburger alleycats",
   "Inquiring about the picture of Otis Redding taken just before he died",
   "Breaking my sunny shoe shine",
   "Greeting mustard pies and carrot eyes",
@@ -191,7 +191,7 @@ export const VERBS: string[] = [
   "Realizing the lizards, they have died",
 
   // (Phish — source unconfirmed)
-  "Bouncing like a new born elf",
+  "Bouncing like a newborn elf",
   "Sleeping the sleep of death",
 
   // "Esther" (the doll's flight) (?)
@@ -199,7 +199,7 @@ export const VERBS: string[] = [
   "Tumbling and diving through the clouds",
   "Plummeting earthward",
 
-  // Squirming coil
+  // "The Squirming Coil"
   "Watching Satan catch a ray on the beach",
   "Licking the coil some day",
   "Stunning the puppy",
@@ -213,7 +213,7 @@ export const VERBS: string[] = [
   "Running so fast my feet don't touch the ground",
   "Falling into a deep well through the foam",
 
-  // Backwards down the number line
+  // "Backwards Down the Number Line"
   "Blowing out candles once again",
   "Whispering it into his ear",
 
@@ -231,7 +231,7 @@ export const VERBS: string[] = [
   // "The Divided Sky"
   "Watching the sky divide",
 
-  // You Enjoy Myself
+  // "You Enjoy Myself"
   "Washing Uffizi",
   "Driving me to Firenze",
 
@@ -261,11 +261,11 @@ export const VERBS: string[] = [
   "Helping you party down",
   "Mourning Poster Nutbag",
 
-  // Cities (Talking Heads song, covered by Phish)
+  // "Cities" (Talking Heads cover, frequently played by Phish)
   "Finding myself a city to live in",
   "Looking over at the dry ice factory",
 
-  // It's Ice
+  // "It's Ice"
   "Mimicking the image",
   "Pressing on the elastic sheet",
   "Breathing through a slice",
