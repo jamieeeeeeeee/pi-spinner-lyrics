@@ -140,17 +140,8 @@ export const VERBS: string[] = [
 
   // "The Lizards" (paraphrased imagery, not lyric quotations)
   "Meeting an aging knight in the corridor",
-  "Following Rutherford the Brave through Gamehendge",
-  "Trudging through Prussia at a knight's side",
-  "Reaching a hidden spring past the forest",
-  "Hearing a knight's song of a vanished people",
-  "Searching for the Helping Friendly Book",
-  "Defying Wilson's decree",
-  "Plunging into a raging river in heavy armor",
-  "Watching Rutherford sink beneath the current",
-  "Spying a hulking creature in the reeds",
-  "Praying brave Rutherford still draws breath",
-  "Carrying the knight back from the depths",
+  "Surrendering to the flow",
+  "Remembering all the thoughts that he had thunk",
 
   // (Phish — source unconfirmed)
   "Bouncing like a new born elf",
@@ -161,9 +152,11 @@ export const VERBS: string[] = [
   "Tumbling and diving through the clouds",
   "Plummeting earthward",
 
-  // (Phish — source unconfirmed)
-  "Trying to catch a ray on the beach",
+  // Squirming coil
+  "Watching Satan catch a ray on the beach",
   "Licking the coil some day",
+  "Stunning the puppy",
+  "Burning the whale",
 
   // "Cavern"
   "Forging the coin and licking the stamp",
@@ -173,7 +166,7 @@ export const VERBS: string[] = [
   "Running so fast my feet don't touch the ground",
   "Falling into a deep well through the foam",
 
-  // (Phish — source unconfirmed)
+  // Backwards down the number line
   "Blowing out candles once again",
   "Whispering it into his ear",
 
