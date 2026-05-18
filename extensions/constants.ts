@@ -99,6 +99,12 @@ export const VERBS: string[] = [
   "Taking a moment from my day",
   "Wrapping it up in things you say",
   "Mailing it off to your address",
+  "Breaking the packaging",
+  "Making the points", 
+  "Tossing with thoughts into a bin",
+  "Time leaks out, my life leaks in",
+  "Setting your clocks",
+  "Finding moments in a box",
   "Wading in the velvet sea",
 
   // "Chalk Dust Torture"
