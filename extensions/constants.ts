@@ -3,14 +3,14 @@
 // shimmer highlight without touching the extension logic.
 
 // How often to swap to a new random verb, in milliseconds.
-export const VERB_INTERVAL_MS = 4500;
+export const VERB_INTERVAL_MS = 9500;
 
 // How often to repaint the shimmer highlight, in milliseconds.
-export const SHIMMER_INTERVAL_MS = 160;
+export const SHIMMER_INTERVAL_MS = 200;
 
 // Moon-phase frames replace pi's default braille spinner.
 export const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
-export const MOON_INTERVAL_MS = 120;
+export const MOON_INTERVAL_MS = 300;
 
 // How far the bright "head" travels per shimmer tick, in characters.
 export const SHIMMER_STEP = 1;
