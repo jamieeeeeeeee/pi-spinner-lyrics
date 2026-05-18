@@ -133,6 +133,14 @@ export const VERBS: string[] = [
   // "Bathtub Gin"
   "Making soup for the ambassadors",
   "Singing to the troubadours",
+  "Lining up all the kings",
+  "Ringing the autumn bells",
+  "Wearing a three coned cap",
+  "Looking at your stiped stockings",
+  "Listening to a sad tale about the kids under the carpet",
+  "Tasting all the soup to see if it is done",
+  "Storming the hallway",
+  "Letting Wendy on the windowsill in",
   "Carrying a martini, made of bathtub gin",
   "Taking a bath",
 
@@ -243,6 +251,22 @@ export const VERBS: string[] = [
   "Breathing in a steam dream",
   "Plunging below the water line",
 
+  // Steam
+  "Walking off the ledge of the solitary tower",
+  "Throwing bread crusts off the ledge",
+  "Singing in a voice so clear",
+  "Disappearing as steam",
+  "Standing far below the wolves you seem to know",
+  "Meling my bones into oil",
+  "Hissing liquid in the snow",
+  "Drawing near to your tower",
+  "Approaching the sound of hooves",
+  "Scattering all the wolves",
+  "Briefly watching the horseman ride",
+  "Watching the horses nostrils steam",
+  "Hearing a fateful scream",
+  "Singing in the steam",
+
   // "Fee"
   "Using a bamboo cane to help keep the pace",
   "Racing with the wind",
@@ -279,11 +303,18 @@ export const VERBS: string[] = [
   // Dirt
   "Living beneath the dirt",
   "Being free from push and shove",
+  "Needing a space to move and breathe",
+  "Spending time beneath your heels",
+  "Shouting your name into the wind",
 
   // My Friend, My Friend
+  "Making a statement about my former life",
+  "Grasping a silver silken blade",
   "Affixing my gaze",
   "Grasping the handle, clipping the cable",
   "Thinking about my friend with the knife",
+  "Thinking about my friend with the wife",
   "Moving closer to the flame",
   "Feeling it ticking like a bomb",
+  "Thinking about my friend the clever ruse",
 ];
