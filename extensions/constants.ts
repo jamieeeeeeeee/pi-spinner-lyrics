@@ -6,7 +6,7 @@
 export const VERB_INTERVAL_MS = 9500;
 
 // How often to repaint the shimmer highlight, in milliseconds.
-export const SHIMMER_INTERVAL_MS = 200;
+export const SHIMMER_INTERVAL_MS = 160;
 
 // Moon-phase frames replace pi's default braille spinner.
 export const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
@@ -151,7 +151,7 @@ export const VERBS: string[] = [
   // "Ghost"
   "Telling you the story of the ghost",
   "Feeling forsaken",
-  "Leaving the latch left unhooked",
+  "Leaving the latch unhooked",
   "Waiting in the wind and rain",
   "Calling the ghost instead",
 
