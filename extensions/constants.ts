@@ -197,10 +197,20 @@ export const VERBS: string[] = [
   "Greeting mustard pies and carrot eyes",
 
   // "The Lizards"
-  "Meeting an aging knight in the corridor",
+  "Passing through the corridor",
+  "Meeting an aging knight on the way to see the king",
+  "Leading the way through the streets of Prussia",
+  "Lifting up my visor",
+  "Doing things that smart people don't do",
+  "Explainingthat I was once a lizard too",
   "Surrendering to the flow",
-  "Remembering all the thoughts that he had thunk",
   "Realizing the lizards, they have died",
+  "Coming from the land of the big baboon",
+  "Coming from the land of lizards",
+  "Enlightening you with the writings of the Helping, Phriendly Book",
+  "Possessing the secrets of eternal joy and never-ending splendor",
+  "Bowing my head in silence",
+  "Remembering all the thoughts that he had thunk",
 
   // (Phish — source unconfirmed)
   "Bouncing like a newborn elf",
