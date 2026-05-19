@@ -323,4 +323,35 @@ export const VERBS: string[] = [
   "Moving closer to the flame",
   "Feeling it ticking like a bomb",
   "Thinking about my friend the clever ruse",
+
+  // Sand 
+  "Healing the symptoms but not affecting the cause",
+  "Equating my life with sand",
+  "Flowing through the hourglass",
+  "Pushing through the funnel",
+  "Turning once more",
+  "Racing all your siblings through the tunnel",
+  "Sliding and letting the silicone embrace me",
+  "Letting my brothers crush me to the wall",
+  "Chosing my own religion",
+  "Worshipping my own spirit",
+  "Languishing in shame",
+  "Blaming myself",
+
+  // Twist 
+  "Speaking your name for many days",
+  "Prouncing it in several ways",
+  "Moving letters all around",
+  "Substituting every sound",
+  "Hearing the end result",
+  "Telling you it's not my fault",
+  "Twisting it around that way",
+
+  // Fuego 
+  "Rolling in my fuego",
+  "Doing my own stunts",
+  "Seeing guilty people",
+  "Gnawing through the straps",
+  "Freaking out and throwing stuff",
+  "Asking Diego if it was stolen",
 ];
