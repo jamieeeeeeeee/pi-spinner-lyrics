@@ -56,6 +56,8 @@ export const VERBS: string[] = [
   "Bagging it, tagging it, selling it to the butcher in the store",
   "Dipping the ladle for a taste of her creation",
   "Hearing the never-ending coral maze",
+
+  // Cavern
   "Wiping primal soup from my shoes",
   "Stuffing a newt into my sack",
   "Scraping musty grime off with Rick's fork",
@@ -232,6 +234,7 @@ export const VERBS: string[] = [
   // Heavy Things
   "Tearing my ventricles",
 
+
   // (Phish — source unconfirmed)
   "Bouncing like a newborn elf",
   "Sleeping the sleep of death",
@@ -248,8 +251,25 @@ export const VERBS: string[] = [
   "Burning the whale",
 
   // "Cavern"
+  "Slipping into the night",
+  "Stealing away before the dawn",
+  "Bringing back good news",
+  "Scourging the evening with my cry",
+  "Making the rudiments of gruel from the flesh from Satan's dogs",
+  "Deducting the carrots from your pay",
+  "Swimming in the mire",
   "Forging the coin and licking the stamp",
   "Putting your money where your mouth is",
+  "Stuffing it in my sack",
+  "Feeling a bubble form somewhere below my skin",
+  "Giving the director a serpent deflector",
+  "Giving the director a musrat detector",
+  "Giving the director a ribbon reflector",
+  "Giving the director a a cushion convector",
+  "Giving the director a picture of nectar",
+  "Giving the director a virile disector",
+  "Giving the director a hormone collector",
+  "Whatever you do, take care of your shoes",
 
   // (Phish — source unconfirmed; possibly "Foam")
   "Running so fast my feet don't touch the ground",
