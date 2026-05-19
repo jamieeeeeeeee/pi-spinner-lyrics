@@ -212,6 +212,26 @@ export const VERBS: string[] = [
   "Bowing my head in silence",
   "Remembering all the thoughts that he had thunk",
 
+  // Colonel Forbin's Ascent
+  "Staring up at the mountain",
+  "Wiping away the beads of sweat from brow",
+  "Burying my feet in the quagmire",
+  "Wrapping my fingers around a knotted root",
+  "Climbing, so slowly, ahead",
+  "Suddenly hearing the crack of thunder",
+  "Standing amidst a sea of dust",
+  "Shuddering in the puddles and the muck",
+  "Waiting 'til tomorrow for the sacred creed",
+  "Bowing in reverence to the shadow of the mighty legends formed",
+  "Standing before the prophet",
+  "Speaking so slowly",
+  "Helping you with your quest to gain the knowledge that you lack",
+  "Calling upon my faithful friend the mockingbird",
+  "Warning you that all knowledge seeming innocent and pure becoes a deadly weapon in the hands of avarice and greed",
+
+  // Heavy Things
+  "Tearing my ventricles",
+
   // (Phish — source unconfirmed)
   "Bouncing like a newborn elf",
   "Sleeping the sleep of death",
