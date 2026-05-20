@@ -6,7 +6,7 @@
 export const VERB_INTERVAL_MS = 9500;
 
 // How often to repaint the shimmer highlight, in milliseconds.
-export const SHIMMER_INTERVAL_MS = 160;
+export const SHIMMER_INTERVAL_MS = 140;
 
 // Moon-phase frames replace pi's default braille spinner.
 export const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
@@ -155,14 +155,17 @@ export const VERBS: string[] = [
   // "Stash"
   "Pulling the pavement from under my nails",
   "Brushing past a garden, dependent on whales",
+  "Zipping through the forest with the curdling fleas",
+  "Growing with them spindles",
+  "Casting down the ash",
   "Yanking on my tunic",
   "Dangling my stash",
-  "Zipping through the forest with the curdling fleas",
   "Seizing the mutant",
   "Crying to my cohorts",
   "Bed-heating the apple toast",
   "Watching the solar garlic start to rot",
   "Poking a double decker on a llama, taboot",
+  "Was it for this my life I sought?",
 
   // "Ghost"
   "Telling you the story of the ghost",
@@ -374,9 +377,19 @@ export const VERBS: string[] = [
   "Feeling it ticking like a bomb",
   "Thinking about my friend the clever ruse",
 
+  // Back on the Train
+  "Jumping off with a bucket full of thoughts",
+  "Holding that bucket in my hand",
+  "Watching the smoke behind the mountain curl",
+  "Never looking back again",
+  "Turning my face into the howlin' wind",
+  "Seeing my face in a town that's flashing by",
+
   // Sand 
   "Healing the symptoms but not affecting the cause",
   "Equating my life with sand",
+  "Healing the gunshot wound with gauze",
+  "Dropping a forgotten god",
   "Flowing through the hourglass",
   "Pushing through the funnel",
   "Turning once more",
