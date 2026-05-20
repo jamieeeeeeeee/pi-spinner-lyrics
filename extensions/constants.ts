@@ -3,26 +3,31 @@
 // shimmer highlight without touching the extension logic.
 
 // How often to swap to a new random verb, in milliseconds.
-export const VERB_INTERVAL_MS = 9500;
+export const VERB_INTERVAL_MS = 12000;
 
 // How often to repaint the shimmer highlight, in milliseconds.
 export const SHIMMER_INTERVAL_MS = 140;
 
 // Moon-phase frames replace pi's default braille spinner.
 export const MOON_FRAMES = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
-export const MOON_INTERVAL_MS = 300;
+export const MOON_INTERVAL_MS = 280;
 
 // How far the bright "head" travels per shimmer tick, in characters.
 export const SHIMMER_STEP = 1;
 
 // Width of the falloff on each side of the head (in characters).
-// Beyond this distance the character renders as "dim".
+// Beyond this distance the character renders as the tail color.
 export const FALLOFF = 3;
 
-export type ThemeColor = "accent" | "text" | "muted" | "dim";
-
-// Map distance-from-head → theme color name. Index 0 = head.
-export const RAMP: ThemeColor[] = ["accent", "text", "muted", "dim"];
+// Shimmer color ramp — shades of #fec76f from brightest (at the head) to
+// dimmest (beyond the falloff). Index 0 = head, last entry = tail / out-of-range.
+export const RAMP: string[] = [
+  "#fff1cf", // head: near-white highlight
+  "#fec76f", // base gold
+  "#d9a558", // mid
+  "#a07a3e", // dim
+  "#5a4624", // tail / out-of-range
+];
 
 // Phish-lyric verbs used by the spinner-lyrics extension.
 // Grouped by song where known; some are unattributed.
@@ -384,6 +389,15 @@ export const VERBS: string[] = [
   "Never looking back again",
   "Turning my face into the howlin' wind",
   "Seeing my face in a town that's flashing by",
+
+  // Gumbo
+  "Planning a family vacation",
+  "Passing by a gunslinging parrot",
+  "Stashing the gumbo",
+  "Rattling around in a cage",
+  "Writing notes on sandpaper",
+  "Remembering to check on the sausage",
+  "Carving up a good hunk of wood",
 
   // Sand 
   "Healing the symptoms but not affecting the cause",
