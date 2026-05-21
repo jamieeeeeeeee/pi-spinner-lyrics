@@ -19,14 +19,14 @@ export const SHIMMER_STEP = 1;
 // Beyond this distance the character renders as the tail color.
 export const FALLOFF = 3;
 
-// Shimmer color ramp — shades of #fec76f from brightest (at the head) to
+// Shimmer color ramp — shades of #fdfb45 from brightest (at the head) to
 // dimmest (beyond the falloff). Index 0 = head, last entry = tail / out-of-range.
 export const RAMP: string[] = [
-  "#fff1cf", // head: near-white highlight
-  "#fec76f", // base gold
-  "#d9a558", // mid
-  "#a07a3e", // dim
-  "#5a4624", // tail / out-of-range
+  "#fffde0", // head: near-white highlight
+  "#fdfb45", // base yellow
+  "#c9c736", // mid
+  "#8f8d22", // dim
+  "#4a4912", // tail / out-of-range
 ];
 
 // Phish-lyric verbs used by the spinner-lyrics extension.
@@ -101,6 +101,17 @@ export const VERBS: string[] = [
   "Trying to make a woman that you move",
   "Walking through the hallways inside my mind",
   "Chasing the backbeat from behind",
+
+  // Lawn Boy
+  "I can smell the colors outside on my lawn",
+  "Getting overwhelmed by olfactory hues",
+
+  // Wolfman's Brother
+  "It was many years ago now",
+  "I really can't be sure",
+  "Knocking upon the door",
+  "The telephone is ringing",
+  "Handing the telephone to Liz",
 
   // "Wading in the Velvet Sea"
   "Taking a moment from my day",
