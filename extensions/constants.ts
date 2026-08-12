@@ -113,6 +113,13 @@ export const VERBS: string[] = [
   "The telephone is ringing",
   "Handing the telephone to Liz",
 
+  // Undermind
+  "Undecided and undefined",
+  "Mystified and mishapen",
+  "Misinformed but not mistakenv",
+  "Unrelenting understroke",
+  "Relocated, not retired",
+
   // "Wading in the Velvet Sea"
   "Taking a moment from my day",
   "Wrapping it up in things you say",
@@ -235,28 +242,35 @@ export const VERBS: string[] = [
 
   // Colonel Forbin's Ascent
   "Staring up at the mountain",
-  "Wiping away the beads of sweat from brow",
+  "Wiping away the beads of sweat that glistened on his brow",
+  "Finding a door at the foot of the mountain",
+  "With bloodshot eyes seeing all the lay between me and fulfillment of my vows",
   "Burying my feet in the quagmire",
-  "Wrapping my fingers around a knotted root",
+  "Feeling my fingers wrap around a knotted root",
+  "Pulling my body upwards to sea green mossy boulder",
   "Climbing, so slowly, ahead",
   "Suddenly hearing the crack of thunder",
-  "Standing amidst a sea of dust",
+  "The rocks are crumbling overhead and tumbling down the mountain to the dismal swamp", 
+  "Standing amidst a sea of dust and rocks and stones",
+  "A thousand birds are heading for the sky",
+  "The sacred creed will be yours",
+  "The sacred creed will be yours to devour",
+  "The sacred creed will be yours to seize",
+  "The sacred creed will be yours to obey",
   "Shuddering in the puddles and the muck",
   "Waiting 'til tomorrow for the sacred creed",
+  "Lifting up my head",
+  "Seeing the silhouette that stands before me",
   "Bowing in reverence to the shadow of the mighty legends formed",
   "Standing before the prophet",
   "Speaking so slowly",
   "Helping you with your quest to gain the knowledge that you lack",
   "Calling upon my faithful friend the mockingbird",
-  "Warning you that all knowledge seeming innocent and pure becoes a deadly weapon in the hands of avarice and greed",
+  "Warning you that all knowledge seeming innocent and pure becomes a deadly weapon in the hands of avarice and greed",
 
   // Heavy Things
   "Tearing my ventricles",
-
-
-  // (Phish — source unconfirmed)
-  "Bouncing like a newborn elf",
-  "Sleeping the sleep of death",
+  "Things are falling down on me",
 
   // "Esther" (the doll's flight) (?)
   "Floating higher over hills and valleys and treetops",
@@ -378,9 +392,12 @@ export const VERBS: string[] = [
   // Dirt
   "Living beneath the dirt",
   "Being free from push and shove",
+  "Being free from all those swarming up above",
+  "Spending time beneath your heels",
   "Needing a space to move and breathe",
   "Spending time beneath your heels",
   "Shouting your name into the wind",
+  "Wiggling in the earth and dew",
 
   // My Friend, My Friend
   "Making a statement about my former life",
@@ -396,10 +413,14 @@ export const VERBS: string[] = [
   // Back on the Train
   "Jumping off with a bucket full of thoughts",
   "Holding that bucket in my hand",
+  "Ideas that will take me all around the world",
   "Watching the smoke behind the mountain curl",
+  "Taking a long time to get back on the train",
   "Never looking back again",
   "Turning my face into the howlin' wind",
-  "Seeing my face in a town that's flashing by",
+  "See my face in a town that's flashing by",
+  "See me standing in a station in the rain",
+  "See me running beside the car",
 
   // Gumbo
   "Planning a family vacation",
